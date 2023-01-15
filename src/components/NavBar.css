@@ -1,0 +1,31 @@
+/* Navbar container */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #333;
+    /* change color as desired */
+    color: white;
+    /* change color as desired */
+    padding: 0 16px;
+}
+
+
+/* Navbar items */
+
+.navbar a {
+    color: white;
+    /* change color as desired */
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+
+/* Active navbar item */
+
+.navbar a.active {
+    font-weight: bold;
+    /* change style as desired */
+}
