@@ -16,7 +16,7 @@ function Widget(props) {
           </div>
           <div class="sparkline">
           <Sparklines data={props.chartRange}>
-            <SparklinesBars style={{ fill: "white" }} />
+            <SparklinesBars style={{ fill: "#f5bf42" }} />
             <SparklinesLine style={{ stroke: "#41c3f9", fill: "none" }} />
           </Sparklines>
           </div>
