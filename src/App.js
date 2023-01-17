@@ -1,17 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
 import Widget from './components/Widget';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div className="App">
+      <NavBar></NavBar>
       <div class="flex-container">
-      <div class="container-fluid">
-        <Widget title="Statistic" description="An interesting stat" value={100} label="Orders" />
-      </div>
-      <div class="container-fluid">
-        <Widget title="Statistic" description="More stuff" value={34} label="Returns" />
-      </div>
+        <Widget 
+          title="Statistic" 
+          description="An interesting stat" 
+          value={100} 
+          chartRange={Array.from({length: 30}, () => Math.floor(Math.random() * 40))} 
+          label="Orders" 
+          />
+        <Widget 
+          title="Statistic" 
+          description="More stuff" 
+          value={34} 
+          chartRange={Array.from({length: 30}, () => Math.floor(Math.random() * 40))} 
+          label="Returns" 
+          />
       </div>
     </div>
   );

@@ -2,12 +2,12 @@
 
 .navbar {
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: space-between;
     height: 50px;
-    background-color: #333;
+    background-color: #32383D;
     /* change color as desired */
-    color: white;
+    color: rgb(0, 0, 0);
     /* change color as desired */
     padding: 0 16px;
 }
@@ -16,7 +16,7 @@
 /* Navbar items */
 
 .navbar a {
-    color: white;
+    color: rgb(0, 0, 0);
     /* change color as desired */
     text-decoration: none;
     margin-right: 16px;
@@ -27,5 +27,6 @@
 
 .navbar a.active {
     font-weight: bold;
+    color: #A1B4C4
     /* change style as desired */
 }
