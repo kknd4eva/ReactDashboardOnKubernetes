@@ -16,3 +16,6 @@ web application on containers using Kubernetes. The app itself will be a simple 
 web dashboard, including some example content, CSS etc, while also including the files required
 to create a Kubernetes deployment of the front end along with supporting services. 
 
+### Design
+Color palette - https://color.adobe.com/Dark-UI-color-theme-7388196/ 
+
